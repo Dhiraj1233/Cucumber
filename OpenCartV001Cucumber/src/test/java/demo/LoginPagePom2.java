@@ -8,13 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPagePom2 
 {
 	@FindBy(id = "input-email")
-	private WebElement emailTxt3;
+	private WebElement emailTxt31;
 
 	@FindBy(id = "input-password")
-	private WebElement passTxt3;
+	private WebElement passTxt31;
 
 	@FindBy(xpath = "//input[@value='Login']")
-	private WebElement LoginBtn3;
+	private WebElement LoginBtn31;
 
 	public LoginPagePom2(WebDriver driver)
 	{
@@ -22,14 +22,14 @@ public class LoginPagePom2
 	}
 	public WebElement enterEmail()
 	{
-		return emailTxt3;
+		return emailTxt31;
 	}
 	public WebElement enterPass()
 	{
-		return passTxt3;
+		return passTxt31;
 	}
 	public void clickLogin()
 	{
-		LoginBtn3.click();;	
+		LoginBtn31.click();;	
 	}
 }
