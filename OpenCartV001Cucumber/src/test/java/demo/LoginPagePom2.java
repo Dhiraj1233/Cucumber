@@ -1,3 +1,4 @@
+
 package demo;
 
 import org.openqa.selenium.WebDriver;
@@ -11,10 +12,10 @@ public class LoginPagePom2
 	private WebElement emailTxt2;
 
 	@FindBy(id = "input-password")
-	private WebElement passTxt2;
+	private WebElement passTxt31;
 
 	@FindBy(xpath = "//input[@value='Login']")
-	private WebElement LoginBtn2;
+	private WebElement LoginBtn31;
 
 	public LoginPagePom2(WebDriver driver)
 	{
@@ -24,12 +25,12 @@ public class LoginPagePom2
 	{
 		return emailTxt2;
 	}
-	public WebElement enterPass()
+		public WebElement enterPass()
 	{
-		return passTxt2;
+		return passTxt31;
 	}
 	public void clickLogin()
 	{
-		LoginBtn2.click();;	
+		LoginBtn31.click();;	
 	}
 }
